@@ -30,7 +30,8 @@
     (namespace :http://www.w3.org/XML/1998/namespace/id)
       => \"http://www.w3.org/XML/1998/namespace\"
     (name :http://www.w3.org/XML/1998/namespace/id)
-      => \"id\""
+      => \"id\""}
+    com.github.raek.xml-with-xmlns
     (:require clojure.xml))
 
 (defn- ns-decl-prefix

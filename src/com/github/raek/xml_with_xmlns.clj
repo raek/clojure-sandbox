@@ -120,13 +120,12 @@
 	    content)))
 
 (defn with-xmlns
-  "Traverses an XML tree and adds their namespace onto every tag and attribute
-  name.
+  "Traverses an XML tree and replaces tag and attribute names with namespace
+  qualified keywords.
   
-  The tag and attribute names are keywords with their namespaces set to the
-  corresponding namespace URI.
-  
-  This function also removes the namespace declaration attributes."
+  The tag and attribute names are qualified keywords with their namespaces set
+  to the corresponding namespace URI. This function also removes the namespace
+  declaration attributes."
   ([node]
    (with-xmlns node {nil nil
 	             :xml "http://www.w3.org/1999/xhtml"

@@ -1,5 +1,5 @@
 ;; by Rasmus Svensson, raek@lysator.liu.se, http://raek.se/
-;; October 6, 2009
+;; October 2009
 
 ;; Copyright (c) Rasmus Svensson. All rights reserved.
 ;; The use and distribution terms for this software are covered by the
@@ -31,7 +31,7 @@
       => \"http://www.w3.org/XML/1998/namespace\"
     (name :http://www.w3.org/XML/1998/namespace/id)
       => \"id\""}
-    com.github.raek.xml-with-xmlns
+    com.github.raek.xmlns
     (:require clojure.xml))
 
 (defn- ns-decl-prefix

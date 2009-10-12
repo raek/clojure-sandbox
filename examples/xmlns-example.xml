@@ -1,0 +1,14 @@
+<rdf:RDF
+   xmlns:dc="http://purl.org/dc/terms/"
+   xmlns:foaf="http://xmlns.com/foaf/0.1/"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+  <foaf:Person rdf:about="http://uri.raek.se/person/raek">
+    <foaf:name>Rasmus Svensson</foaf:name>
+    <foaf:nick>raek</foaf:nick>
+    <foaf:weblog rdf:resource="http://raek.se/~raek/"/>
+  </foaf:Person>
+  <foaf:Document rdf:about="http://blog.raek.se/">
+    <dc:title>Raek's Blog</dc:title>
+    <dc:alternate>Slender Snippets of Syntax</dc:alternate>
+  </foaf:Document>
+</rdf:RDF>

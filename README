@@ -1,1 +1,7 @@
-Just playing around with Clojure.
+This is a congloremate of various small projects I'm working on.
+
+* xmlns -- add XML Namespaces support on top of clojure.xml
+* watcher-frame -- display the value of a reference in a window
+* xml-tree-view -- draw a view of an XML tree (barely begun coding)
+
+Take a look in the "examples" directory for examples.
